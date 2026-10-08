@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="http://www.swin.edu.au">
+        <img src="logo.png">
+    </a>
+    <h1>CWA Help Desk Appointment</h1>
+<form method="post" >
+    <p>
+        <h5>The Help Desk is located in ATC620. Open to 10:30 to 19:00 Monday to Friday</h5>
+    </p>
+    <p>
+        <h5>Check Blackboard for when CWA turos will be there.</h5>
+    </p>
+    <fieldset>
+        <legend>Student Details</legend>
+        <p><label for="studentid">Student ID</label>
+            <input type="text" name= "studentid" id="studentid" maxlength="20" size="10" required="required" pattern="\d{0,9}" title="between 7 and 10 digits are entered"/>
+        </p>
+        <p><label for="studentid">Given Name</label>
+            <input type="text" name= "studentid" id="studentid" maxlength="20" size="10" required="required" pattern="[A-Za-z]+"/>
+            <label for="studentid">Family Name</label>
+            <input type="text" name= "studentid" id="studentid" maxlength="20" size="10" required="required" pattern="[A-Za-z]+"/>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Your unit</legend>
+        <p>
+            
+			<input type="radio" id="COS10011" name="your unit" value="COS10011"/>
+            <label for="Your unit">COS10011</label> 
+
+           
+            <input type="radio" id="COS60004" name="your unit" value="COS60004"/>
+             <label for="Your unit">COS60004</label>
+
+           
+            <input type="radio" id="COS60007" name="your unit" value="COS60007"/>
+             <label for="Your unit">COS60007</label>
+        <p>
+            <label for="Your tutor">Your tutor</label>
+			 <select name="Your tutor" id="Your tutor">
+                <option value="Please select">Please select</option>
+        </p>
+            </select>
+    </fieldset>
+    <fieldset>
+        <legend>Issue</legend>
+            
+            <input type="checkbox" id="i" name="issue[]" value="yes" checked="checked">
+            <label for ="html">HTML</label>
+
+            <input type="checkbox" id="i" name="issue[]" value="yes">
+            <label for ="css">CSS</label>
+            
+            <input type="checkbox" id="i" name="issue[]" value="yes">
+            <label for ="javascript">JavaScript</label>
+            
+            <input type="checkbox" id="i" name="issue[]" value="yes">
+            <label for ="php">PHP</label>
+           
+            <input type="checkbox" id="i" name="issue[]" value="yes">
+             <label for ="mysql">MySQL</label>
+        <p>
+            <label for="di">Description Issue</label><br>
+			<textarea id="di" name="di" rows="4" cols="40"></textarea>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Preffered Date/Time</legend>
+        <p><label for="Preffered Date/Time">Date</label> 
+			<input type="text" name= "dt" id="dt" placeholder="dd/mm/yyyy" maxlength="10" size="10" pattern="{0,9}"/>
+		</p>
+        <p>><label for="Preffered Date/Time">Time</label>
+            <input type="text" name= "dt" id="dt" placeholder="00:00" maxlength="10" size="10" pattern="{0,9}"/>
+        </p>
+    </fieldset>
+
+    <input type= "submit" value="Book"/>
+    <input type= "reset" value="Reset Form"/>
+
+</form>
+</body>
+</html>
+=======
+
+>>>>>>> 4ebedceb7d34c193f1945e455b69b252aaf54f6e
