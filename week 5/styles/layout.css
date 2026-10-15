@@ -1,0 +1,85 @@
+aside:hover {display:block;}
+
+.menu {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+}
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 1.5em;
+    border: 2px solid #1a252f;
+    margin-bottom: 1em;
+}
+
+aside {
+    background-color: #ecf0f1;
+    padding: 1em;
+    border: 1px solid #bdc3c7;
+    margin: 1em 0;
+}
+
+footer {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 1.2em;
+    margin-top: 2em;
+}
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+#tables {
+    float: right;
+}
+
+#hyperlinks {
+    clear: both;
+}
+footer {
+    clear: both;
+}
+#images {
+    float: right;
+}
+figure {
+    border: 2px solid #ccc;
+}
+
+#headings, #sc, #lists, #tables, #hyperlinks, #images {
+    width: 48%;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+article {
+    min-width: 30em;
+}
+
+/* 1. Make footer paragraphs inline-block and give each a 33% width */
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+/* 2. Style individual footer paragraphs using pseudo-class selectors */
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
