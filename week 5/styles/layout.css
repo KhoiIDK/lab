@@ -68,7 +68,9 @@ footer {
     float: right;
     order: 4;
 }
-
+figure {
+    border: 2px solid #ccc;
+}
 
 #headings, #sc, #lists, #tables, #hyperlinks, #images {
     width: 48%;
